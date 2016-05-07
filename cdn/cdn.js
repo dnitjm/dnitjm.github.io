@@ -1,10 +1,4 @@
 $(document).ready(function() {
-	$('#form').insertAfter('.left');
-     
-     (function() {
-		var leftOffset = $('#date_start').offset().left;
-        $('.dropdown-menu').css('left', leftOffset);
-		console.log($('.dropdown-menu').css('left'));
-        console.log(leftOffset);
-	    })();
+	$('#form').appendTo('.map_bg');
+    $('.btn-toolbar').appendTo('.map_bg');
 });
