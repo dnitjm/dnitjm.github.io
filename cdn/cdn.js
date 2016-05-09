@@ -4,5 +4,5 @@ $(document).ready(function() {
     $('.row').prependTo('.map_bg');
     setTimeout(function() {
     	$('.container').fadeIn('slow');
-    }, 1500)
+    }, 500)
 });
